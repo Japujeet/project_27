@@ -1,6 +1,6 @@
 class Bob{
     constructor(x,y,radius){
-        this.body=Bodies.circle(x,y,radius,{isStatic:true});
+        this.body=Bodies.circle(x,y,radius,{isStatic:false});
       this.radius=radius;
       this.x=this.body.x;
       this.y=this.body.y;
